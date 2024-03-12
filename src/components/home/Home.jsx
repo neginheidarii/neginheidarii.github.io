@@ -22,7 +22,7 @@ const Home = () => {
           </h1>
 
           <p className="home__job">
-            <span className="text-cs">I Am</span> <b>Software Developer</b>
+            <span className="text-cs">I Am</span> <b> a Software Developer</b>
           </p>
 
           <div className="home__img-wrapper">
@@ -32,7 +32,7 @@ const Home = () => {
 
             <p className="home__data home__data-one">
               <span className="text-lg">
-                3 <b>+</b>
+                3<b>+</b>
               </span>
 
               <span className="text-sm text-cs">
@@ -41,7 +41,7 @@ const Home = () => {
             </p>
 
             <p className="home__data home__data-two">
-              <span className="text-lg">10</span>
+              <span className="text-lg">10+</span>
 
               <span className="text-sm text-cs">
                 Completed <span>Projects</span>
