@@ -73,15 +73,15 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    img: Project1,
-    category: "Mobile App",
-    title: "OPG DESIGN JAM 2024",
-    description:
-      "Participated in the 2024 Design Jam competition hosted by Ontario Power Generation and George Brown College. Contributed to a dynamic team environment, showcasing exceptional teamwork and problem-solving skills. Utilized diverse tools and technologies to ensure a polished user experience across platforms, resulting in the successful development of a feature-rich application, highlighting our technical proficiency and commitment to innovation.",
-    url: "https://www.javascript.com/",
-  },
+  // {
+  //   id: 1,
+  //   img: Project1,
+  //   category: "Mobile App",
+  //   title: "OPG DESIGN JAM 2024",
+  //   description:
+  //     "Participated in the 2024 Design Jam competition hosted by Ontario Power Generation and George Brown College. Contributed to a dynamic team environment, showcasing exceptional teamwork and problem-solving skills. Utilized diverse tools and technologies to ensure a polished user experience across platforms, resulting in the successful development of a feature-rich application, highlighting our technical proficiency and commitment to innovation.",
+  //   url: "https://www.javascript.com/",
+  // },
   {
     id: 2,
     img: Project2,
