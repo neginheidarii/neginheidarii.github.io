@@ -81,7 +81,7 @@
 }
 
 .hero__link::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: -97%;
@@ -111,8 +111,8 @@
 .home__profile {
   position: absolute;
   bottom: 0;
-  height: 800px;
-  border-radius: 500px;
+  height: 750px;
+  border-radius: 275px;
   object-fit: cover;
 }
 

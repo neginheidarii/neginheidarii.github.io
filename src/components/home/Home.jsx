@@ -27,7 +27,15 @@ const Home = () => {
 
           <div className="home__img-wrapper">
             <div className="home__banner">
-              <img src={profileImg} alt="" className="home__profile" />
+              <img
+                src={profileImg}
+                alt=""
+                className="home__profile"
+                style={{
+                  display: "block",
+                  paddingLeft: "150px",
+                }}
+              />
             </div>
 
             <p className="home__data home__data-one">
