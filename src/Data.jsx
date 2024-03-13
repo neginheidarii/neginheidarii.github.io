@@ -40,7 +40,7 @@ export const skills = [
   {
     id: 1,
     name: "JavaScript",
-    percentage: 85,
+    // percentage: 85,
     description:
       "Proficient in JavaScript, I navigate the language's dynamic landscape with ease. Whether crafting interactive web interfaces or developing server-side applications, my expertise in JavaScript allows me to create efficient and engaging solutions.",
   },
@@ -48,35 +48,35 @@ export const skills = [
   {
     id: 2,
     name: "React JS",
-    percentage: 75,
+    // percentage: 75,
     description:
       "I excel in React development with a deep understanding of its intricacies and a proven track record of building dynamic and responsive user interfaces.",
   },
   {
     id: 3,
     name: "Node JS",
-    percentage: 70,
+    // percentage: 70,
     description:
       "I command a robust skill set in Node.js, leveraging its powerful capabilities to develop scalable and efficient server-side applications. My experience extends to crafting high-performance, event-driven solutions that harness the full potential of Node.js for optimal results.",
   },
   {
     id: 4,
     name: "React Native",
-    percentage: 70,
+    // percentage: 70,
     description:
       "Experienced in React Native, I create cross-platform mobile apps that deliver seamless and high-performance user experiences.",
   },
   {
     id: 5,
     name: "HTML & CSS & Bootstrap & Tailwind CSS",
-    percentage: 95,
+    // percentage: 95,
     description:
       "I have a strong command of HTML and CSS, using them to structure and style web content. Additionally, I'm proficient in Bootstrap and Tailwind CSS, harnessing these frameworks to enhance the design and responsiveness of web applications.",
   },
   {
     id: 6,
     name: "Python",
-    percentage: 80,
+    // percentage: 80,
     description:
       "Specialized in Python for data science, I leverage its versatile capabilities to analyze and derive insights from complex datasets. My expertise extends to employing powerful libraries and frameworks, making data-driven decisions a seamless process.",
   },
@@ -85,6 +85,32 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    img: Project5,
+    category: "Mobile App",
+    title: "OPG DESIGN JAM 2024",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    url: "https://www.javascript.com/",
+  },
+  {
+    id: 2,
+    img: Project3,
+    category: "Mobile App",
+    title: "IPark Mobile Application",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+  },
+  {
+    id: 3,
+    img: Project4,
+    category: "Web App",
+    title: "IPark Web App",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    url: "https://www.javascript.com/",
+  },
+  {
+    id: 4,
     img: tictactoe,
     category: "Web App",
     title: "Tic Tac Toe Game",
@@ -93,38 +119,21 @@ export const projects = [
     url: "https://www.javascript.com/",
   },
   {
-    id: 2,
+    id: 5,
     img: weatherapp,
     category: "Web App",
-    title: "Weather App",
+    title: "Video Games Web App",
     description:
       "The Weather App with React is an intuitive web application offering instant weather updates for global cities. Built with React, it boasts a clean, responsive design for effortless city searches, real-time weather checks, and a 5-day forecast. The app's visual interface ensures a seamless experience on various devices, while its integration with a weather API provides a simple and effective means for users to stay informed, enabling confident activity planning.",
     url: "https://www.javascript.com/",
   },
   {
-    id: 3,
-    img: Project3,
-    category: "Development",
-    title: "Explore",
+    id: 6,
+    img: weatherapp,
+    category: "Web App",
+    title: "Employee Management System",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  },
-  {
-    id: 4,
-    img: Project4,
-    category: "UI UX Design",
-    title: "Mozar",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-    url: "https://www.javascript.com/",
-  },
-  {
-    id: 5,
-    img: Project5,
-    category: "Data Science",
-    title: "Stay Fit",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "The Weather App with React is an intuitive web application offering instant weather updates for global cities. Built with React, it boasts a clean, responsive design for effortless city searches, real-time weather checks, and a 5-day forecast. The app's visual interface ensures a seamless experience on various devices, while its integration with a weather API provides a simple and effective means for users to stay informed, enabling confident activity planning.",
     url: "https://www.javascript.com/",
   },
 ];
