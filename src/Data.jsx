@@ -1,8 +1,11 @@
 import tictactoe from "./assets/tictactoe.jpeg";
 import weatherapp from "./assets/weatherapp.png";
-import Project3 from "./assets/project3.jpeg";
-import Project4 from "./assets/project4.jpeg";
-import Project5 from "./assets/project5.jpg";
+import Project1 from "./assets/project1.png";
+import Project2 from "./assets/project2.png";
+import Project3 from "./assets/project3.png";
+import Project5 from "./assets/project5.png";
+
+// import Project5 from "./assets/project5.png";
 
 export const links = [
   {
@@ -72,28 +75,28 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    img: Project5,
+    img: Project1,
     category: "Mobile App",
     title: "OPG DESIGN JAM 2024",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "Participated in the 2024 Design Jam competition hosted by Ontario Power Generation and George Brown College. Contributed to a dynamic team environment, showcasing exceptional teamwork and problem-solving skills. Utilized diverse tools and technologies to ensure a polished user experience across platforms, resulting in the successful development of a feature-rich application, highlighting our technical proficiency and commitment to innovation.",
     url: "https://www.javascript.com/",
   },
   {
     id: 2,
-    img: Project3,
-    category: "Mobile App",
+    img: Project2,
+    category: "Web App",
     title: "IPark Mobile Application",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "Contributed to a dynamic team in developing a full-stack Parking Reservation Mobile App, actively participating in conceptualization and implementation of an innovative parking reservation system. Engineered a comprehensive solution, seamlessly integrating a mobile app using React Native, Stripe, and Firebase technologies. This highlights my commitment to creating user-friendly applications with a strong emphasis on innovation and functionality.",
   },
   {
     id: 3,
-    img: Project4,
+    img: Project3,
     category: "Web App",
     title: "IPark Web App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "Contributed to a collaborative effort developing a full-stack Parking Reservation Web App, actively involved in conceptualization and implementation of an inventive parking reservation system. Orchestrated a comprehensive solution, seamlessly integrating a web app using React and Firebase technologies, highlighting my commitment to user-friendly applications with a strong emphasis on innovation and functionality.",
     url: "https://www.javascript.com/",
   },
   {
@@ -107,7 +110,7 @@ export const projects = [
   },
   {
     id: 5,
-    img: weatherapp,
+    img: Project5,
     category: "Web App",
     title: "Video Games Web App",
     description:
@@ -118,7 +121,7 @@ export const projects = [
     id: 6,
     img: weatherapp,
     category: "Web App",
-    title: "Employee Management System",
+    title: "Weather App",
     description:
       "The Weather App with React is an intuitive web application offering instant weather updates for global cities. Built with React, it boasts a clean, responsive design for effortless city searches, real-time weather checks, and a 5-day forecast. The app's visual interface ensures a seamless experience on various devices, while its integration with a weather API provides a simple and effective means for users to stay informed, enabling confident activity planning.",
     url: "https://www.javascript.com/",
