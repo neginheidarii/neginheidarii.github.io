@@ -8,7 +8,8 @@
 
 .scroll-header {
   position: fixed;
-  background-color: var(--bg-color-alt);
+  /* background-color: #f7cdde; */
+  /* background-color: var(--navbar-darkmode); */
   animation: header_animate 0.8s var(--transition) 0s forwards;
 }
 

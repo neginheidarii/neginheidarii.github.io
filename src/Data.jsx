@@ -21,15 +21,6 @@ export const links = [
     name: "Resume",
     path: "resume",
   },
-
-  // {
-  //   name: "Pricing",
-  //   path: "pricing",
-  // },
-  // {
-  //   name: "Blog",
-  //   path: "blog",
-  // },
   {
     name: "Contact",
     path: "contact",
@@ -39,30 +30,26 @@ export const links = [
 export const skills = [
   {
     id: 1,
-    name: "JavaScript",
-    // percentage: 85,
+    name: "MERN Stack",
     description:
-      "Proficient in JavaScript, I navigate the language's dynamic landscape with ease. Whether crafting interactive web interfaces or developing server-side applications, my expertise in JavaScript allows me to create efficient and engaging solutions.",
+      "I have a good grasp of MERN stack development, using MongoDB, Express.js, React, and Node.js to build strong and scalable web applications. Through hands-on experience in different projects, I've improved my technical skills and developed a keen interest in full-stack applications.",
   },
 
   {
     id: 2,
-    name: "React JS",
-    // percentage: 75,
+    name: "Languages",
     description:
       "I excel in React development with a deep understanding of its intricacies and a proven track record of building dynamic and responsive user interfaces.",
   },
   {
     id: 3,
     name: "Node JS",
-    // percentage: 70,
     description:
       "I command a robust skill set in Node.js, leveraging its powerful capabilities to develop scalable and efficient server-side applications. My experience extends to crafting high-performance, event-driven solutions that harness the full potential of Node.js for optimal results.",
   },
   {
     id: 4,
     name: "React Native",
-    // percentage: 70,
     description:
       "Experienced in React Native, I create cross-platform mobile apps that deliver seamless and high-performance user experiences.",
   },

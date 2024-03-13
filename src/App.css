@@ -35,6 +35,9 @@
     var(--bg-color) 0%,
     var(--bg-color) 100%
   );
+--navbae-lightmode: #f7cdde;
+--navbae-darkmode: #968496;
+
 
   /**
    * typography
