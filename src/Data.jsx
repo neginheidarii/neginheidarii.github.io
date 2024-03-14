@@ -5,7 +5,6 @@ import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project5 from "./assets/project5.png";
 
-// import Project5 from "./assets/project5.png";
 
 export const links = [
   {
@@ -85,7 +84,7 @@ export const projects = [
   {
     id: 2,
     img: Project2,
-    category: "Web App",
+    category: "Mobile App",
     title: "IPark Mobile Application",
     description:
       "Contributed to a dynamic team in developing a full-stack Parking Reservation Mobile App, actively participating in conceptualization and implementation of an innovative parking reservation system. Engineered a comprehensive solution, seamlessly integrating a mobile app using React Native, Stripe, and Firebase technologies. This highlights my commitment to creating user-friendly applications with a strong emphasis on innovation and functionality.",

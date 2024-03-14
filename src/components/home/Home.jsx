@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import CV from "../../assets/Negin-Heidari-CV.pdf";
+import CoverLetter from "../../assets/Cover-Letter-Negin-Heidari.pdf";
 import "./home.css";
 
 const Home = () => {
@@ -104,9 +105,11 @@ const Home = () => {
 
           <div className="home__btns">
             <a download="" href={CV} className="btn text-cs">
-              Download CV
+              Download Resume
             </a>
-
+            <a download="" href={CoverLetter} className="btn text-cs">
+              Cover Letter
+            </a>
             <Link
               className="hero__link text-cs"
               to="skills"
