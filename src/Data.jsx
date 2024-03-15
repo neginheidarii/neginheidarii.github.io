@@ -4,8 +4,7 @@ import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project5 from "./assets/project5.png";
-import Project6 from './assets/employee.png'
-
+import Project6 from "./assets/employee.png";
 
 export const links = [
   {
@@ -131,61 +130,51 @@ export const projects = [
 export const cv = [
   {
     id: 1,
-    title: "CoderHouse Courses",
-    subtitle: "Backend Programming",
-    date: "2014 - 2016",
+    title: "Project Summary",
+    subtitle: "George Brown College",
+    date: "2023 - 2024",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "education",
+      "IPark is reshaping the parking sector with a smart management system designed to increase profits for space owners. The system simplifies bookings and automates payments, significantly enhancing operational efficiency. Key analytics offer actionable insights, optimizing lot utilization and strategy. Integrated marketing tools help to effectively fill spaces, and top-tier security protocols ensure safe transactions. With IPark, parking lot owners gain a user-friendly, revenue-boosting solution that delivers convenience and reliability.",
+    category: "Capstone Project",
   },
 
   {
     id: 2,
-    title: "Lviv National Academy of Arts",
-    subtitle: "Faculty of Design",
-    date: "2012 - 2014",
+    title: "Project Vision",
+    subtitle: "",
+    date: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "education",
+      "Our project vision for IPark is to revolutionize the parking experience with seamless convenience and efficiency. Through our 24-hour advanced reservation system, drivers can secure parking spaces up to a day in advance, ensuring peace of mind and eliminating last-minute stress. Our application also offers a user-friendly payment method, allowing for hassle-free transactions directly through the platform, eliminating the need for cash payments or paper-based tickets. With flexible reservation management capabilities, users have the freedom to modify or cancel bookings up to 5 hours prior to their scheduled time, enhancing convenience and flexibility. Additionally, our application-based check-in and check-out system streamline the parking process, reducing costs associated with traditional hardware systems and providing a more efficient and secure experience for all users.",
+    category: "Capstone Project",
   },
 
   {
     id: 3,
-    title: "IT Future",
-    subtitle: "High School",
-    date: "2010 - 2012",
+    title: "Technology Stack",
+    subtitle: "",
+    date: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "education",
-  },
-
-  {
-    id: 4,
-    title: "UI Head & Manager",
-    subtitle: "Soft Tech Inc.",
-    date: "2020 - PRESENT",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "experience",
+      "After careful consideration, we've chosen the best tools for our projects. For the mobile app, we're using React Native for the look and feel, Firebase and Firestore for the backend and storing data, and Stripe for payments. For the web app, we're using React and Next.js for the front end. These choices ensure a smooth user experience and efficient functionality across all platforms.",
+    category: "Capstone Project",
   },
 
   {
     id: 5,
-    title: "UI / UX Specialist",
-    subtitle: "Kana Design Studio",
-    date: "2018 - 2020",
+    title: "Wireframe",
+    subtitle: "",
+    date: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "experience",
+      "Experience the full user interface of our mobile app by simply clicking on the following link: Mobile App UI: (https://app.uizard.io/p/058d3351). For a glimpse of our web app's interface, click here: Web App UI: (https://app.uizard.io/p/e2b54d81). These links will provide you with a visual tour of our intuitive and user-friendly designs, showcasing the seamless experience we've crafted for our users.",
+    category: "Capstone Project",
   },
 
-  {
-    id: 6,
-    title: "Plugins Developer",
-    subtitle: "Fiverr.com",
-    date: "2016 - 2018",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "experience",
-  },
+  // {
+  //   id: 6,
+  //   title: "Plugins Developer",
+  //   subtitle: "Fiverr.com",
+  //   date: "2016 - 2018",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   category: "experience",
+  // },
 ];

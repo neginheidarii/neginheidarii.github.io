@@ -6,19 +6,19 @@ import shapeOne from '../../assets/shape-1.png';
 
 const Resume = () => {
   return (
-    <section className='resume section' id='resume'>
-      <h2 className='section__title text-cs'>Resume</h2>
-      <p className='section__subtitle'>
-        My <span>Story</span>
+    <section className="resume section" id="resume">
+      <h2 className="section__title text-cs">Academic Projects</h2>
+      <p className="section__subtitle">
+        My <span>projects</span>
       </p>
 
-      <div className='resume__container container grid'>
-        <div className='resume__group'>
-          <h3 className='resume__heading'>Education</h3>
+      <div className="resume__container container grid">
+        <div className="resume__group">
+          <h3 className="resume__heading">Capstone Project</h3>
 
-          <div className='resume__items'>
+          <div className="resume__items">
             {cv.map((val, id) => {
-              if (val.category === 'education') {
+              if (val.category === "Capstone Project") {
                 return (
                   <Card
                     key={id}
@@ -33,12 +33,12 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className='resume__group'>
-          <h3 className='resume__heading'>Experience</h3>
+        {/* <div className="resume__group">
+          <h3 className="resume__heading">Experience</h3>
 
-          <div className='resume__items'>
+          <div className="resume__items">
             {cv.map((val, id) => {
-              if (val.category === 'experience') {
+              if (val.category === "experience") {
                 return (
                   <Card
                     key={id}
@@ -51,15 +51,16 @@ const Resume = () => {
               }
             })}
           </div>
-        </div>
+        </div> */}
+        
       </div>
 
-      <div className='section__deco deco__left'>
-        <img src={shapeOne} alt='' className='shape' />
+      <div className="section__deco deco__left">
+        <img src={shapeOne} alt="" className="shape" />
       </div>
 
-      <div className='section__bg-wrapper'>
-        <span className='bg__title'>History</span>
+      <div className="section__bg-wrapper">
+        <span className="bg__title">History</span>
       </div>
     </section>
   );
