@@ -79,6 +79,7 @@ export const projects = [
     title: "IPark Mobile Application",
     description:
       "Contributed to a dynamic team in developing a full-stack Parking Reservation Mobile App, actively participating in conceptualization and implementation of an innovative parking reservation system. Engineered a comprehensive solution, seamlessly integrating a mobile app using React Native, Stripe, and Firebase technologies. This highlights my commitment to creating user-friendly applications with a strong emphasis on innovation and functionality.",
+    url: "https://gitlab.com/mohammadtalaie321/ipark_mobile_application",
   },
   {
     id: 3,

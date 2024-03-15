@@ -1,9 +1,10 @@
-// import React from 'react';
+import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
 import shapeTwo from "../../assets/shape-2.png";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-// import { projects } from "../../Data";
+import { projects } from "../../Data";
+
 
 const Items = ({ projectItems }) => {
   return (
