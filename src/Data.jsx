@@ -4,6 +4,7 @@ import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project5 from "./assets/project5.png";
+import Project6 from './assets/employee.png'
 
 
 export const links = [
@@ -72,15 +73,6 @@ export const skills = [
 ];
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   img: Project1,
-  //   category: "Mobile App",
-  //   title: "OPG DESIGN JAM 2024",
-  //   description:
-  //     "Participated in the 2024 Design Jam competition hosted by Ontario Power Generation and George Brown College. Contributed to a dynamic team environment, showcasing exceptional teamwork and problem-solving skills. Utilized diverse tools and technologies to ensure a polished user experience across platforms, resulting in the successful development of a feature-rich application, highlighting our technical proficiency and commitment to innovation.",
-  //   url: "https://www.javascript.com/",
-  // },
   {
     id: 2,
     img: Project2,
@@ -104,7 +96,7 @@ export const projects = [
     category: "Web App",
     title: "Tic Tac Toe Game",
     description:
-      "This Java-based Tic Tac Toe game utilizes JavaFX for the graphical user interface and features an AI opponent powered by the MinMax algorithm. The game provides three modes of play, allowing users to play against another human, against the AI, or watch the AI play against itself.",
+      "This Java-based Tic Tac Toe game boasts a user-friendly interface powered by JavaFX. Its AI opponent, utilizing the MinMax algorithm, offers challenging gameplay. With three modes to choose from, players can compete against another human, challenge the AI, or watch AI-versus-AI matches. It promises hours of fun for players of all skill levels.",
     url: "https://www.javascript.com/",
   },
   {
@@ -123,6 +115,15 @@ export const projects = [
     title: "Weather App",
     description:
       "The Weather App with React is an intuitive web application offering instant weather updates for global cities. Built with React, it boasts a clean, responsive design for effortless city searches, real-time weather checks, and a 5-day forecast. The app's visual interface ensures a seamless experience on various devices, while its integration with a weather API provides a simple and effective means for users to stay informed, enabling confident activity planning.",
+    url: "https://www.javascript.com/",
+  },
+  {
+    id: 1,
+    img: Project6,
+    category: "Web App",
+    title: "Employee Management System",
+    description:
+      "Crafted with precision and expertise, I developed a sophisticated Employee Management web application from the ground up, seamlessly integrating the power of React and Node.js. This innovative solution boasts a polished and professional interface, designed to optimize the handling of employee data with unparalleled efficiency and accuracy.",
     url: "https://www.javascript.com/",
   },
 ];

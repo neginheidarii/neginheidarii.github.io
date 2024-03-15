@@ -193,7 +193,7 @@ img {
   color: var(--title-color);
   font-size: var(--tiny-font-size);
   font-weight: 700;
-  height: 56px;
+  height: 50px;
   display: grid;
   place-items: center;
   position: relative;

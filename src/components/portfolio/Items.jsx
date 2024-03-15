@@ -30,6 +30,7 @@ const Items = ({ projectItems }) => {
 
             <Link
               className="btn pricing__btn text-cs"
+              style={{backgroundColor: "var(--primary-color)"}}
               to={`${url}`}
               spy={true}
               hashSpy={true}
@@ -37,8 +38,7 @@ const Items = ({ projectItems }) => {
               offset={-150}
               duration={500}
             >
-              Git Repositroy
-              <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
+              Git Repositroy <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
             </Link>
 
             <img src={shapeTwo} alt="" className="shape c__shape" />

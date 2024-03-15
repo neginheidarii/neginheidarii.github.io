@@ -90,6 +90,7 @@
 
 .pricing__btn {
   color: var(--title-color);
+  background-color: var(--primary-color);
 }
 
 .pricing__btn::before {
