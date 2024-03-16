@@ -20,6 +20,7 @@
   --bg-color-alt: hsl(300, 9%, 9%);
   --container-color: hsl(300, 9%, 18%);
   --border-color: hsl(210, 2%, 65%);
+  --navbar: hsl(300, 9%, 9%);
   --first-gradient: linear-gradient(
     0deg,
     var(--bg-color-alt) 0%,
@@ -35,8 +36,6 @@
     var(--bg-color) 0%,
     var(--bg-color) 100%
   );
---navbae-lightmode: #f7cdde;
---navbae-darkmode: #968496;
 
 
   /**
@@ -83,6 +82,7 @@
   --bg-color-alt: #fff;
   --container-color: #fff;
   --border-color: #000;
+  --navbar: #f7cdde;
 
   /**
    * shadow

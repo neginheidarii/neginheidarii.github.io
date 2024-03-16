@@ -7,6 +7,7 @@
   --bg-color-alt: hsl(300, 9%, 9%);
   --container-color: hsl(300, 9%, 18%);
   --border-color: hsl(210, 2%, 65%);
+  
   --first-gradient: linear-gradient(
     0deg,
     var(--bg-color-alt) 0%,
