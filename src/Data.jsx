@@ -92,7 +92,7 @@ export const projects = [
     title: "IPark Web App",
     description:
       "Contributed to a collaborative effort developing a full-stack Parking Reservation Web App, actively involved in conceptualization and implementation of an inventive parking reservation system. Orchestrated a comprehensive solution, seamlessly integrating a web app using React and Firebase technologies, highlighting my commitment to user-friendly applications with a strong emphasis on innovation and functionality.",
-    url: "https://www.javascript.com/",
+    url: "https://github.com/neginheidarii/DevOpshttps://gitlab.com/neginheidari/ipark_web_application",
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const projects = [
     title: "Tic Tac Toe Game",
     description:
       "This Java-based Tic Tac Toe game boasts a user-friendly interface powered by JavaFX. Its AI opponent, utilizing the MinMax algorithm, offers challenging gameplay. With three modes to choose from, players can compete against another human, challenge the AI, or watch AI-versus-AI matches. It promises hours of fun for players of all skill levels.",
-    url: "https://www.javascript.com/",
+    url: "https://github.com/neginheidarii/Tic-Tac-Toe-Game",
   },
   {
     id: 5,
@@ -110,7 +110,7 @@ export const projects = [
     title: "Video Games Web App",
     description:
       "The Weather App with React is an intuitive web application offering instant weather updates for global cities. Built with React, it boasts a clean, responsive design for effortless city searches, real-time weather checks, and a 5-day forecast. The app's visual interface ensures a seamless experience on various devices, while its integration with a weather API provides a simple and effective means for users to stay informed, enabling confident activity planning.",
-    url: "https://www.javascript.com/",
+    url: "https://github.com/neginheidarii/game-hub",
   },
   {
     id: 6,
@@ -119,7 +119,7 @@ export const projects = [
     title: "Weather App",
     description:
       "The Weather App with React is an intuitive web application offering instant weather updates for global cities. Built with React, it boasts a clean, responsive design for effortless city searches, real-time weather checks, and a 5-day forecast. The app's visual interface ensures a seamless experience on various devices, while its integration with a weather API provides a simple and effective means for users to stay informed, enabling confident activity planning.",
-    url: "https://www.javascript.com/",
+    url: "https://github.com/neginheidarii/Weather-App-React",
   },
   {
     id: 1,
@@ -128,7 +128,7 @@ export const projects = [
     title: "Employee Management System",
     description:
       "Crafted with precision and expertise, I developed a sophisticated Employee Management web application from the ground up, seamlessly integrating the power of React and Node.js. This innovative solution boasts a polished and professional interface, designed to optimize the handling of employee data with unparalleled efficiency and accuracy.",
-    url: "https://www.javascript.com/",
+    url: "https://github.com/neginheidarii/Employee-Management-React",
   },
 ];
 
@@ -173,13 +173,52 @@ export const cv = [
     category: "Capstone Project",
   },
 
+  {
+    id: 6,
+    title: "Winner of Design Jam 2024 - OPG ",
+    subtitle: "hosted by Ontario Power Generation and GBC",
+    date: "March 2024",
+    description:
+      "At the Design Jam competition 2024, hosted by Ontario Power Generation and George Brown College, our team demonstrated remarkable teamwork, collaboration, and problem-solving skills. Leveraging a diverse range of tools and technologies, we created polished user experiences across various platforms, developing feature-rich mobile and web applications that captivated users. Our journey was defined by creativity, resilience, and a shared commitment to excellence, leaving a lasting impression on the competition and highlighting the power of collective effort.",
+    category: "experience",
+  },
+
+  {
+    id: 7,
+    title: "IEEE Competition 2023",
+    subtitle: "IEEE",
+    date: "October 2023",
+    description:
+      "Immersed in the exhilarating challenge of IEEEXtreme 2023, the renowned International Competitive Programming Competition, our team soared to remarkable heights, securing a place in the esteemed top 15% globally. It was a testament to our dedication, passion, and relentless pursuit of excellence in the dynamic realm of competitive programming. This achievement stands as a proud milestone, showcasing our collective skill, resilience, and unwavering commitment to pushing the boundaries of innovation on a global stage.",
+    category: "experience",
+  },
+
   // {
-  //   id: 6,
-  //   title: "Plugins Developer",
-  //   subtitle: "Fiverr.com",
-  //   date: "2016 - 2018",
+  //   id: 8,
+  //   title: "IEEE Competition 2022",
+  //   subtitle: "IEEE",
+  //   date: "October 2022",
   //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //     "Engaging in the prestigious IEEEXtreme 2022, the International Competitive Programming Competition, our team achieved a commendable feat, securing a position in the esteemed top 33% globally. This accomplishment speaks volumes about our dedication, perseverance, and proficiency in the realm of competitive programming. It stands as a testament to our collaborative spirit and relentless pursuit of excellence, leaving an indelible mark on the global stage of innovation and problem-solving.",
   //   category: "experience",
   // },
+
+  {
+    id: 9,
+    title: "Dean's List Distinction",
+    subtitle: "George Brown College",
+    date: "2022-2024",
+    description:
+      "Consistently striving for excellence, I have been honored with Dean's List recognition throughout my academic journey, a testament to my steadfast commitment to academic pursuits. Maintaining a perfect GPA of 4.0 for semesters 1, 2, 3, 5, and 6, with a remarkable 3.96 in semester 4, my academic record reflects not only diligence but also a genuine passion for learning. Beyond the classroom, I have actively engaged in various extracurricular activities, further enriching my holistic educational experience. This outstanding academic performance, coupled with my involvement in diverse activities, underscores my dedication to personal and intellectual growth.",
+    category: "experience",
+  },
+  {
+    id: 9,
+    title: "Leadership Engagement and Volunteering",
+    subtitle: "Leadership Association",
+    date: "2022-2024",
+    description:
+      "Enthusiastically contributed to the growth and development of George Brown's Leadership Association. With a passionate commitment to nurturing future leaders, I actively promoted leadership development initiatives, encouraging fellow students to embrace their potential and cultivate invaluable skills. In addition, I seized opportunities to give back to the community by volunteering for various roles, such as conducting campus tours for first-year students. Through these experiences, I not only honed my own leadership abilities but also had the privilege of inspiring others to embark on their own journeys of growth and empowerment.",
+    category: "experience",
+  },
 ];

@@ -2,14 +2,17 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import shapeTwo from "../../assets/shape-2.png";
 import { motion } from "framer-motion";
-import { Button, Link } from "react-scroll";
-import { projects } from "../../Data";
 
 const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
         const { id, img, category, title, description, url } = projectItem;
+
+        const redirectToExternalLink = () => {
+          window.location.href = url;
+        };
+
         return (
           <motion.div
             layout
@@ -27,7 +30,7 @@ const Items = ({ projectItems }) => {
             <span className="portfolio__category text-cs">{category}</span>
             <h3 className="portfolio__title">{title}</h3>
             <p className="portfolio__description">{description}</p>
-            <Button
+            <button
               className="btn pricing__btn text-cs "
               style={{
                 backgroundColor: "--bg-color",
@@ -36,19 +39,16 @@ const Items = ({ projectItems }) => {
                 justifyContent: "center",
                 width: "95%",
               }}
-              to={`${url}`}
               spy={true}
               hashSpy={true}
               smooth={true}
               offset={-150}
               duration={500}
-              onClick={() => {
-                console.log("clicked");
-              }}
+              onClick={redirectToExternalLink}
             >
               Git Repository{"  "}
               <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
-            </Button>
+            </button>
 
             <img src={shapeTwo} alt="" className="shape c__shape" />
           </motion.div>

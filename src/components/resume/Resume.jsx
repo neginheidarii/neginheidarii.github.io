@@ -33,8 +33,8 @@ const Resume = () => {
           </div>
         </div>
 
-        {/* <div className="resume__group">
-          <h3 className="resume__heading">Experience</h3>
+        <div className="resume__group">
+          <h3 className="resume__heading">Achievements</h3>
 
           <div className="resume__items">
             {cv.map((val, id) => {
@@ -51,7 +51,7 @@ const Resume = () => {
               }
             })}
           </div>
-        </div> */}
+        </div>
         
       </div>
 

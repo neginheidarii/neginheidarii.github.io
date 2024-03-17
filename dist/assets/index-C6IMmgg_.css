@@ -96,14 +96,15 @@ a {
   text-decoration: none;
 }
 input,
-textarea,
-button {
+textarea {
   border: none;
   outline: none;
   background: transparent;
 }
 button {
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 img {
   max-width: 100%;
