@@ -13,14 +13,14 @@
    * colors
    */
 
-  --primary-color: #ffc0d9;
+  --primary-color: #517dbf;
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 92%);
-  --bg-color: hsl(293, 17%, 10%);
-  --bg-color-alt: hsl(300, 9%, 9%);
-  --container-color: hsl(300, 9%, 18%);
+  --bg-color: hsl(247, 18%, 10%);
+  --bg-color-alt: hsl(255, 9%, 9%);
+  --container-color: hsl(225, 9%, 18%);
   --border-color: hsl(210, 2%, 65%);
-  --navbar: hsl(300, 9%, 9%);
+  --navbar: hsl(225, 9%, 9%);
   --first-gradient: linear-gradient(
     0deg,
     var(--bg-color-alt) 0%,
@@ -77,11 +77,11 @@
 .light-theme {
   --title-color: #000;
   --text-color: #262626;
-  --bg-color: #f0ebe3;
+  --bg-color: #faeaf6;
   --bg-color-alt: #fff;
   --container-color: #fff;
   --border-color: #000;
-  --navbar: #f7cdde;
+  --navbar: #80a8c3;
 
   /**
    * shadow
