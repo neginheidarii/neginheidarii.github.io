@@ -34,7 +34,7 @@
 
 .home__subtitle span,
 .home__title span {
-  color: var(--primary-color);
+  color: var(--home-maincolor);
 }
 
 .home__job b {
@@ -101,7 +101,7 @@
 }
 
 .home__banner {
-  background-color: var(--primary-color);
+  background-color: var( --home-maincolor);
   padding-bottom: 100%;
   border-radius: 50%;
   position: relative;
