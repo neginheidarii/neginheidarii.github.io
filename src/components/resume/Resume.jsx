@@ -59,9 +59,7 @@ const Resume = () => {
         <img src={shapeOne} alt="" className="shape" />
       </div>
 
-      <div className="section__bg-wrapper">
-        <span className="bg__title">History</span>
-      </div>
+    
     </section>
   );
 };

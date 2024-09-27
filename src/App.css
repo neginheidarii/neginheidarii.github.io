@@ -221,7 +221,7 @@ img {
   content: "";
   position: absolute;
   inset: 2px;
-  background-color: #1E1E1E;
+  background-color: #e1d4ca;
   border-radius: inherit;
   transform: scale(0.3);
   filter: blur(10px);

@@ -11274,7 +11274,7 @@ const QS = () => {
                 w.jsx("p", {
                   className: "home__text",
                   children:
-                    "Welcome to my digital realm! I'm Negin Heidari, a coding virtuoso on a mission to transform ideas into dynamic digital realities. With over 3 years of programming prowess, I've mastered the art of crafting innovative and efficient software solutions. My portfolio isn't just a showcase of projects; it's a journey through a world where lines of code weave tales of creativity and problem-solving. Join me as we embark on a thrilling exploration of my coding escapades—where every click unveils a story of passion, precision, and the relentless pursuit of excellence. Ready to turn your digital dreams into code-powered wonders? Let's make it happen!",
+                  "Welcome to my digital world! I'm Negin Heidari, a passionate software developer who brings ideas to life through dynamic, cutting-edge solutions. With over 3+ years of experience and the honor of being the Valedictorian of the Class of 2024 at George Brown College, I’ve mastered the balance of creativity and technical precision, delivering software that not only works but wows. Every project I create is a blend of innovation and efficiency, crafted with care to solve real-world problems. My portfolio showcases this journey, where each line of code tells a story of dedication and excellence. Whether you're looking to collaborate on a project or explore my coding adventures, you're in the right place.",
                 }),
                 w.jsxs("div", {
                   className: "home__socials",

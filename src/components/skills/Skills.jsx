@@ -206,42 +206,12 @@ const Skills = () => {
         <img src={shapeOne} alt="" className="shape" />
       </div>
 
-      <div className="section__bg-wrapper">
-        <span className="bg__title">Skills</span>
-      </div>
+
     </section>
   );
 };
 
 export default Skills;
 
-{
-  /* <div className='skills__item' key={index}>
-              <div className='skills__titles'>
-                <h3 className='skills__name'>{name}</h3>
-              </div>
 
-              <p className='skills__description'>{description}</p>
-
-              <div className='skills__bar'>
-                <span
-                  className='skills__percentage'
-                
-                >
-                  <span></span>
-                </span>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className='section__deco deco__left'>
-        <img src={shapeOne} alt='' className='shape' />
-      </div>
-
-      <div className='section__bg-wrapper'>
-        <span className='bg__title'>Skills</span>
-      </div>
-    </section> */
-}
+  
