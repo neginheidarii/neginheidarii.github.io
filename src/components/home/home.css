@@ -24,6 +24,8 @@
 .home__subtitle,
 .home__job {
   font-weight: 700;
+ 
+  
 }
 
 .home__subtitle,
@@ -107,14 +109,18 @@
   position: relative;
   z-index: 1;
   width: 100%;
+  margin-left: 20px;
+  margin-top: 10%;
 }
 
 .home__profile {
   position: absolute;
-  bottom: 0;
-  height: 750px;
-  border-radius: 275px;
+  bottom: -5px;
+  height: 630px;
+  border-radius: 252px;
   object-fit: cover;
+  right: 75px;
+  
 }
 
 .home__data {

@@ -119,7 +119,7 @@ const Home = () => {
               offset={-150}
               duration={500}
             >
-              My Skills
+             Go To My Skills
             </Link>
           </div>
         </div>
